@@ -34,5 +34,9 @@ public class MovPlayer : MonoBehaviour
         {
             Debug.Log("Passou em algo cupinxa");
         }
+        if (collider.CompareTag("fogs"))
+        {
+            Debug.Log("ta quentinho ta quentinho");
+        }
     }
 }

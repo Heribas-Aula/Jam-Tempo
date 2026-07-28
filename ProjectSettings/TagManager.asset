@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - ObjetoAleatorio
+  - fogs
   layers:
   - Default
   - TransparentFX
