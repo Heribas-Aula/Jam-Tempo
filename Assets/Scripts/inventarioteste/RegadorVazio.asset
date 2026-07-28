@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb4f8d8fb4749d40892e3ad7b439c1a, type: 3}
+  m_Name: RegadorVazio
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  nomeDoItem: RegadorVazio
+  icone: {fileID: -3188702180127858350, guid: 166db13529019f84e9088cb6e954b6fb, type: 3}
