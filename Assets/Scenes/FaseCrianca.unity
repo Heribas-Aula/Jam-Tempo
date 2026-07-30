@@ -767,9 +767,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GatilhoBarreiraQuantidade2D
   tagDoJogador: Player
   itemRequerido: {fileID: 11400000, guid: 65387e3f521d959409ddf2f3c576f586, type: 2}
-  quantidadeNecessaria: 6
+  quantidadeNecessaria: 7
   consumirItensAoPassar: 1
-  objetoBarreira: {fileID: 1424820955}
+  objetoBarreira: {fileID: 0}
   textoAvisoUI: {fileID: 0}
 --- !u!1 &416092717
 GameObject:

@@ -1,4 +1,7 @@
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using static UnityEditor.Progress;
 
 public class InventarioUI : MonoBehaviour
 {
@@ -21,24 +24,71 @@ public class InventarioUI : MonoBehaviour
         AtualizarTela(); // Roda uma vez no início para começar limpo
     }
 
-    void AtualizarTela()
+    // Garante a remoção do evento se o objeto for destruído para evitar erros de memória
+    private void OnDestroy()
+    {
+        if (inventarioJogador != null)
+        {
+            inventarioJogador.OnItemAlterado -= AtualizarTela;
+        }
+    }
+
+    public void MyGridUpdate() { } // Função auxiliar de segurança
+
+    public void AtualizarTela()
     {
         if (painelDosSlots == null) return;
 
-        // Limpa a tela de trás para frente (garante que absolutamente tudo suma antes de redesenhar)
+        // 1. Limpa a tela completamente antes de desenhar
         for (int i = painelDosSlots.childCount - 1; i >= 0; i--)
         {
             Destroy(painelDosSlots.GetChild(i).gameObject);
         }
 
-        if (inventarioJogador == null) return;
+        if (inventarioJogador == null || inventarioJogador.itens == null) return;
 
-        // Cria um novo slot apenas para os itens reais da lista do jogador
+        // 2. DICIONÁRIO BLINDADO: Agrupa os itens e conta as quantidades de forma infalível
+        Dictionary<ItemData, int> itensAgrupados = new Dictionary<ItemData, int>();
+
         foreach (ItemData item in inventarioJogador.itens)
         {
+            if (item == null) continue;
+
+            // Procuramos se já existe um item com o mesmo nome no nosso dicionário
+            ItemData itemCorrespondente = null;
+            foreach (ItemData key in itensAgrupados.Keys)
+            {
+                // ATENÇÃO: Se no seu ItemData a variável for 'idNome' ou 'nomeDoItem', ajuste aqui abaixo!
+                if (key.nomeDoItem == item.nomeDoItem)
+                {
+                    itemCorrespondente = key;
+                    break;
+                }
+            }
+
+            if (itemCorrespondente != null)
+            {
+                itensAgrupados[itemCorrespondente]++; // Já existe, aumenta a quantidade
+            }
+            else
+            {
+                itensAgrupados[item] = 1; // É o primeiro desse tipo, começa com 1
+            }
+        }
+
+        // 3. Renderiza apenas UM slot por tipo de item com sua respectiva quantidade
+        foreach (KeyValuePair<ItemData, int> par in itensAgrupados)
+        {
+            ItemData itemUnico = par.Key;
+            int quantidadeDoItem = par.Value;
+
             GameObject novoSlot = Instantiate(slotPrefab, painelDosSlots);
-            novoSlot.GetComponent<SlotUI>().ConfigurarSlot(item);
+
+            SlotUI scriptSlot = novoSlot.GetComponent<SlotUI>();
+            if (scriptSlot != null)
+            {
+                scriptSlot.ConfigurarSlot(itemUnico, quantidadeDoItem);
+            }
         }
     }
-
 }

@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/FaseAdulto.unity
     guid: e9f3304b71e77e545941e13786780069
   - enabled: 1
+    path: Assets/Scenes/FaseJovem.unity
+    guid: adf88775f4e652945b6b639c90852497
+  - enabled: 1
+    path: Assets/Scenes/FaseCrianca.unity
+    guid: 416e9ead5a00f264f84be15de7eff65a
+  - enabled: 1
     path: Assets/Scenes/Fim.unity
     guid: 4a71e15864d076b469273f7f43f2670f
   m_configObjects:
