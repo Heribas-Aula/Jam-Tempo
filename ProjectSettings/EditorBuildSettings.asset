@@ -12,17 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/FaseIdoso.unity
     guid: 1cb59784b14b24d4198c52394cbbaf9a
   - enabled: 1
-    path: Assets/Scenes/FaseAdulto.unity
-    guid: e9f3304b71e77e545941e13786780069
-  - enabled: 1
     path: Assets/Scenes/FaseJovem.unity
     guid: adf88775f4e652945b6b639c90852497
   - enabled: 1
     path: Assets/Scenes/FaseCrianca.unity
     guid: 416e9ead5a00f264f84be15de7eff65a
   - enabled: 1
-    path: Assets/Scenes/Fim.unity
-    guid: 4a71e15864d076b469273f7f43f2670f
+    path: Assets/Scenes/FaseAdultoTM.unity
+    guid: 19768f40b7c017a4e88e9081eb16f8f8
+  - enabled: 1
+    path: Assets/Scenes/Fim2.unity
+    guid: 3d4edb52b03f95c47960d2e25b722371
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -2750,7 +2750,7 @@ MonoBehaviour:
   - "Era um album de fotos suas, todas bem antigas. Nele estavam algumas das suas
     melhores mem\xF3rias"
   - "Voc\xEA adormece o vendo...."
-  nomeDaNovaCena: FaseAdulto
+  nomeDaNovaCena: FaseAdultoTM
   tagDoJogador: Player
 --- !u!1 &1084801900
 GameObject:
