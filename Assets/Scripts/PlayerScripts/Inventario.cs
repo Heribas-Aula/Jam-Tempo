@@ -17,6 +17,16 @@ public class Inventario : MonoBehaviour
         OnItemAlterado?.Invoke();
     }
 
+    // NOVA FUNÇÃO AUXILIAR: Permite que outros scripts removam um item perfeitamente
+    public void RemoverItem(ItemData itemParaRemover)
+    {
+        if (itens.Contains(itemParaRemover))
+        {
+            itens.Remove(itemParaRemover);
+            OnItemAlterado?.Invoke();
+        }
+    }
+
     // NOVA FUNÇÃO: Tenta transformar os itens com base em uma receita
     public bool TentarTransformar(CraftingRecipe receita)
     {
