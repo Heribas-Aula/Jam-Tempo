@@ -1,6 +1,6 @@
 using TMPro;
 using UnityEngine;
-using static UnityEditor.Progress;
+
 
 public class GatilhoBarreiraQuantidade2D : MonoBehaviour
 {

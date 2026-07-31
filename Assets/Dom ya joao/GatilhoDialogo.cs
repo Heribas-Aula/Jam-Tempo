@@ -2,28 +2,33 @@ using UnityEngine;
 
 public class GatilhoDialogo : MonoBehaviour
 {
-    [TextArea(3, 5)] // Cria uma caixa de texto maior e confortável no Inspector da Unity
+    [TextArea(3, 5)]
     public string[] dialogoDoNPC;
-
+    [SerializeField] private float tempoPerca = 15f;
     private GerenciadorDialogo gerenciador;
+    private TimerUI timer;
     private bool jogadorPerto = false;
 
     void Start()
     {
-        // Busca o gerenciador na cena automaticamente
         gerenciador = FindFirstObjectByType<GerenciadorDialogo>();
+        timer = FindFirstObjectByType<TimerUI>();
     }
 
     void Update()
     {
-        // Se o jogador estiver perto e apertar a tecla E, começa a conversa
         if (jogadorPerto && Input.GetKeyDown(KeyCode.E))
         {
+            if (timer != null)
+            {
+                timer.SubtrairTempo(tempoPerca);
+                timer.PauseTimer();
+            }
+
             gerenciador.IniciarDialogo(dialogoDoNPC);
         }
     }
 
-    // IMPORTANTE: Seu Player precisa ter a Tag "Player" configurada na Unity
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
