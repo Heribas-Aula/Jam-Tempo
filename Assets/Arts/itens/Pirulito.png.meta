@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 2acd162ed2c26ac49bf411c7ea63ac34
+guid: 68c3a33fc4217224bb1e6130fc159a87
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2444128893745783421
-    second: 1785458683168_0
-  - first:
-      213: 1287565584511370571
-    second: 1785458683168_1
+      213: -4181460078380542158
+    second: Pirulito_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,67 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1785458683168_0
+      name: Pirulito_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 28
-        height: 19
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 4, w: 13}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d726cf0874a4be120800000000000000
-      internalID: 2444128893745783421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1785458683168_1
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 0
-        width: 33
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4581d9c31a5ed110800000000000000
-      internalID: 1287565584511370571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "balc\xE3o_0"
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 21
-        width: 2
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3cb9705128f2474fb15b04f52432612
-      internalID: -571936738
+      spriteID: 23796a9863878f5c0800000000000000
+      internalID: -4181460078380542158
       vertices: []
       indices: 
       edges: []
@@ -198,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 58e5629b973b98e4dbf4b43f64d60f5d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -208,9 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1785458683168_0: 2444128893745783421
-      1785458683168_1: 1287565584511370571
-      "balc\xE3o_0": -571936738
+      Pirulito_0: -4181460078380542158
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

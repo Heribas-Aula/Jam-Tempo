@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: 2acd162ed2c26ac49bf411c7ea63ac34
+guid: dba8bc7ae639ac246aa350ffd0b520eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2444128893745783421
-    second: 1785458683168_0
+      213: -7027838829340380645
+    second: CrianA7a_0
   - first:
-      213: 1287565584511370571
-    second: 1785458683168_1
+      213: -1198931139964269279
+    second: CrianA7a_1
+  - first:
+      213: 5519734520675472111
+    second: CrianA7a_2
+  - first:
+      213: 1759653244320013758
+    second: CrianA7a_3
+  - first:
+      213: -7313431123551201556
+    second: CrianA7a_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,67 +138,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1785458683168_0
+      name: CrianA7a_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 10
         y: 0
-        width: 28
-        height: 19
+        width: 14
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 4, w: 13}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d726cf0874a4be120800000000000000
-      internalID: 2444128893745783421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1785458683168_1
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 0
-        width: 33
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4581d9c31a5ed110800000000000000
-      internalID: 1287565584511370571
+      spriteID: b12387ed1d9187e90800000000000000
+      internalID: -7027838829340380645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "balc\xE3o_0"
+      name: CrianA7a_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 21
-        width: 2
-        height: 11
+        x: 42
+        y: 0
+        width: 14
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d3cb9705128f2474fb15b04f52432612
-      internalID: -571936738
+      spriteID: 12d864cfa7a8c5fe0800000000000000
+      internalID: -1198931139964269279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrianA7a_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2925f3d490a9c40800000000000000
+      internalID: 5519734520675472111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrianA7a_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdde8b7d4b8b6810800000000000000
+      internalID: 1759653244320013758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrianA7a_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6d17f2429718a90800000000000000
+      internalID: -7313431123551201556
       vertices: []
       indices: 
       edges: []
@@ -198,7 +251,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 58e5629b973b98e4dbf4b43f64d60f5d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -208,9 +261,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1785458683168_0: 2444128893745783421
-      1785458683168_1: 1287565584511370571
-      "balc\xE3o_0": -571936738
+      CrianA7a_0: -7027838829340380645
+      CrianA7a_1: -1198931139964269279
+      CrianA7a_2: 5519734520675472111
+      CrianA7a_3: 1759653244320013758
+      CrianA7a_4: -7313431123551201556
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
