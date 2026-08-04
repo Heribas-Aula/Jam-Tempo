@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8403469020f928941ac76fae12c77b97
+guid: 33cd257165a5bb64196a969ee3ef2391
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8338776722552638576
-    second: 1785458744944_0
+      213: 182589380807259084
+    second: geladeira_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,45 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1785458744944_0
+      name: geladeira_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 12
-        width: 31
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 07ccb099f3949b370800000000000000
-      internalID: 8338776722552638576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 1785458744944_1
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 12
-        width: 1
-        height: 2
+        x: 3
+        y: 0
+        width: 26
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 73cb11de862de734fb574e64c1575ab8
-      internalID: -523227772
+      spriteID: cc376ce0310b88200800000000000000
+      internalID: 182589380807259084
       vertices: []
       indices: 
       edges: []
@@ -173,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9e6f96c7500fa694a987085ec1ade027
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -183,8 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1785458744944_0: 8338776722552638576
-      1785458744944_1: -523227772
+      geladeira_0: 182589380807259084
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
