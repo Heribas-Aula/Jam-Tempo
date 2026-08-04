@@ -1157,8 +1157,8 @@ MonoBehaviour:
   distanciaAntecipacao: 2
   velocidadeAntecipacao: 2
   usarLimites: 1
-  minX: -10
-  maxX: 50
+  minX: -27
+  maxX: 18
 --- !u!1 &417858502
 GameObject:
   m_ObjectHideFlags: 0
@@ -1927,6 +1927,7 @@ GameObject:
   - component: {fileID: 708467317}
   - component: {fileID: 708467323}
   - component: {fileID: 708467322}
+  - component: {fileID: 708467324}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -1946,7 +1947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87f78d24a8a06b44b485507797852f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Movimentacao
-  velocidade: 8
+  velocidade: 6
 --- !u!61 &708467318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2154,6 +2155,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Inventario
   itens: []
+--- !u!95 &708467324
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708467316}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e175afb07e3a46444b04ba3f190ae135, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &735582851
 GameObject:
   m_ObjectHideFlags: 0
